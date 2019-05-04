@@ -19,6 +19,10 @@ func main() {
 	// Slices
 	fmt.Println(s[1:3])
 
+	// Immediate initialization
+	slice := []int{1, 2, 3}
+	fmt.Println(slice)
+
 	// 2D
 
 	rows := 5
